@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>mosaic</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="flavor.css">
+</head>
+
+<body>
+
+<section id="mainWrapper">
+    <h3>mosaic</h3>
+    <div class="block small">
+        <img src="goni.jpg" id='goni' class="img-avatar" alt="">
+        <img src="flavio.jpg" id='flavio' class="img-avatar" alt="">
+        <img src="megan.jpg" id='megan' class="img-avatar" alt="">
+        <img src="tia.jpg" id='tia' class="img-avatar" alt="">
+        <img src="jeremiah.jpg" id='jeremiah' class="img-avatar" alt="">
+    </div>
+
+    <div class="block big">
+        <div id='target'>
+            <!-- canvas rendered here -->
+        </div>
+
+        <div id="pixleInput" class="range-slider">
+            <input id="pixleSize" type="textarea" value="4"/>
+            <input type="button" value="Update" class="update">
+        </div>
+
+        <div class="title"></div>
+    </div>
+
+    <div class="fixed">
+        <a href="https://github.com/flavioespinoza">
+            <i class="fa fa-github"></i>
+            <br>
+        </a>
+        Created by <a href="https://github.com/flavioespinoza">Flavio</a>
+    </div>
+
+</section>
+
+
+</body>
+
+<script src='jquery.min.js'></script>
+<script src='photomosaic.js'></script>
+<script src='flavor.js'></script>
+
+</html>
